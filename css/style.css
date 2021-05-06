@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(242, 242, 242);
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+#title {
+  font-family: "Source Code Pro", monospace;
+  font-size: 36px;
+}
+
+#input-header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#ta-input {
+  padding: 0.5rem;
+  width: 60vw;
+  height: 25vh;
+  font-family: "Hind", sans-serif;
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+#check-btn {
+  font-family: "Hind", sans-serif;
+  font-size: 17px;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background: rgb(107, 145, 221);
+  margin-bottom: 1rem;
+}
+
+section {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(172, 170, 170);
+  font-family: "Hind", sans-serif;
+  width: 20vw;
+  height: 162px;
+  border-radius: 13px;
+}
+
+#result-title {
+  margin-bottom: 0.3rem;
+}
+
+#result-table {
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  width: 2vw;
+  height: 7vh;
+  padding: 0.2rem;
+  font-weight: bold;
+}
+
+#vowel-total {
+  font-weight: bold;
+}

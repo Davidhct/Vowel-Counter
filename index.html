@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Vowel Counter</title>
+  </head>
+  <body>
+    <header id="header">
+      <h1 id="title">Vowel Counter</h1>
+    </header>
+    <main>
+      <header id="input-header">
+        <textarea
+          name=""
+          id="ta-input"
+          cols="30"
+          rows="10"
+          placeholder="Enter text"
+        ></textarea>
+        <div id="div-btn">
+          <button id="check-btn">Check</button>
+        </div>
+      </header>
+      <section>
+        <article id="result">
+          <span id="result-title">There is: </span>
+          <table id="result-table">
+            <tr>
+              <th>a</th>
+              <th>e</th>
+              <th>i</th>
+              <th>o</th>
+              <th>u</th>
+            </tr>
+            <tr id="result-num">
+              <td>6333</td>
+              <td>36333</td>
+              <td>43333</td>
+              <td>99333</td>
+              <td>23333</td>
+            </tr>
+          </table>
+
+          <span id="vowel-total-title">The total vowel is:</span>
+          <span id="vowel-total">122</span>
+        </article>
+      </section>
+    </main>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
