@@ -11,7 +11,7 @@ body {
 #header {
   display: flex;
   justify-content: center;
-  margin-bottom: 1rem;
+  margin: 3rem 0;
 }
 
 #title {
@@ -29,10 +29,11 @@ body {
 #ta-input {
   padding: 0.5rem;
   width: 60vw;
-  height: 25vh;
+  height: 15vh;
   font-family: "Hind", sans-serif;
   font-size: 18px;
   margin-bottom: 1rem;
+  border-radius: 8px;
 }
 
 #check-btn {
@@ -43,14 +44,23 @@ body {
   border-radius: 5px;
   outline: none;
   border: none;
-  background: rgb(107, 145, 221);
-  margin-bottom: 1rem;
+  background: rgb(12 63 167);
+  margin-bottom: 2rem;
+  color: rgb(242, 242, 242);
+}
+
+#check-btn:hover {
+  background: rgb(242, 242, 242);
+  color: rgb(12 63 167);
+  cursor: pointer;
+  border: 2px solid rgb(12 63 167);
 }
 
 section {
   display: flex;
   align-content: center;
   justify-content: center;
+  padding: 50px;
 }
 
 #result {
@@ -58,33 +68,41 @@ section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: rgb(172, 170, 170);
   font-family: "Hind", sans-serif;
-  width: 20vw;
-  height: 162px;
   border-radius: 13px;
 }
 
-#result-title {
-  margin-bottom: 0.3rem;
-}
-
 #result-table {
-  border: 1px solid #dddddd;
   border-collapse: collapse;
   margin-bottom: 1rem;
+  width: 17vw;
 }
 
 td,
 th {
-  border: 1px solid #dddddd;
   text-align: center;
-  width: 2vw;
-  height: 7vh;
-  padding: 0.2rem;
-  font-weight: bold;
+  padding: 0.5rem 2rem;
+  border: 3px solid #f2f2f2;
+  background: #d9e3f9;
+  border-radius: 11px;
+  font-size: 20px;
 }
 
+th {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#vowel-total-title {
+  margin-bottom: 0.3rem;
+  padding: 15px;
+  font-size: 25px;
+}
 #vowel-total {
   font-weight: bold;
+  font-size: 30px;
+  color: #0c3fa7;
+  border: 2px solid #c4d7ff;
+  border-radius: 31px;
+  padding: 10px 19px;
 }
