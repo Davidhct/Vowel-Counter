@@ -27,6 +27,7 @@ body {
 }
 
 #ta-input {
+  outline: none;
   padding: 0.5rem;
   width: 60vw;
   height: 15vh;
