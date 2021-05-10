@@ -10,7 +10,7 @@ Vowel-Counter application is a single page application (SPA) that Allows you to 
 
 - To practice the Javascript programming language, HTML5 and CSS3.
 - How to build a responsive web page.
-- How to use regular expression (RegEx) pattern, to use `match()` method to find the number of vowels in a string.<br><br>
+- How to use regular expression (RegEx) pattern, for using `match()` method to find the number of vowels in a string.<br><br>
 
 <kbd><img src="/demo images/img_1.png" width="630" height="350"></kbd>
 <kbd><img src="/demo images/img_2.png" width="630" height="350"></kbd>
